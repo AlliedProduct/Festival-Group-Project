@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!-- Index page created by Domantas Knyzelis -->
+    <meta charset="utf-8" />
+    <title>Festival</title>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Festival</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" href="index.html">Home</a>
+                <a class="nav-item nav-link active" href="tickets.html">Tickets <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="contact.html">Contact</a>
+
+            </div>
+        </div>
+    </nav>
+
+    <div class="para">
+      <h1 id="h1">BUY TICKETS BELOW</h1>
+
+    </div>
+
+    <div class="standard">
+      <h2 id="sh2">Click image below to see Standard ticket details</h2>
+        <br />
+        <img id="pic1" src="img/standard.png" alt="standard" onclick="showImageText()">
+      <p id="imageText">Standard tickets give you access ONLY to the live festival</p>
+
+        
+    </div>
+    <br />
+    <div class="vip">
+      <h2 id="vh2">Click image below to see VIP ticket details</h2>
+        <br />
+      <img id="pic2" src="img/vip.png" alt="vip" onclick="showImageText2()">
+      <p id="imageText2">VIP tickets give you access to early entry, discounted drinks and snacks!</p>
+
+    </div>
+    <br />
+    <div class="bckstage">
+      <h2 id="bh2">Click image below to see Backstage ticket details</h2>
+        <br />
+      <img id="pic3" src="img/bckstage.png" alt="bckstage" onclick="showImageText3()">
+      <p id="imageText3">Backstage tickets give you VIP access and after the show you can meet all the performers back stage!</p>
+
+    </div>
+
+    <div class="heading">
+      <h4 id="h4">Enter card and billing details to purchase tickets below</h4>
+
+    </div>
+
+    <div class="checkout">
+      <form>
+  <label for="card-number">Card Number:</label><br>
+  <input type="text" id="card-number" name="card-number"><br>
+  <label for="card-expiry">Expiration Date:</label><br>
+  <input type="text" id="card-expiry" name="card-expiry"><br>
+  <label for="card-cvv">CVV:</label><br>
+  <input type="text" id="card-cvv" name="card-cvv"><br>
+  <br>
+  <label for="billing-name">Billing Name:</label><br>
+  <input type="text" id="billing-name" name="billing-name"><br>
+  <label for="billing-address">Billing Address:</label><br>
+  <input type="text" id="billing-address" name="billing-address"><br>
+  <br>
+  <button type="button" onclick="standard()">Buy Standard Ticket</button>
+  <button type="button" onclick="vip()">Buy VIP Ticket</button>
+  <button type="button" onclick="bckstage()">Buy Backstage Ticket</button>
+  <br>
+  <br>
+  <h3 id="total">€0</h3>
+  <br>
+  <br>
+  <button type="submit" onclick="checkout()">Purchase!</button>
+</form>
+
+
+
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,216 @@
+﻿/* Beginning of Noah Sinkevicius CSS */
+
+/* Image used for the background */
+body {
+    background-image: url("https://www.gso.se/wp-content/uploads/2020/01/gul-pil-svart-barkgrund-point-webb-widescreen_1920x860_acf_cropped.jpg");
+}
+/* Styling for the h2 above carousel */
+#imghead {
+    color: white;
+    text-shadow: 2px 2px black;
+    text-align: center;
+    margin-top: 50px;
+}
+/* 
+    Styling for welcome text, text-shadow is used throughout
+    to keep a consistent look */
+#header {
+    text-align: center;
+    margin-top: 50px;
+    color:white;
+    text-shadow:2px 2px black;
+}
+/* 
+    Styling for the buttons to make it more appealing by
+    using border radius to round off the edges
+*/
+#btn1 {
+    text-align: center;
+    background-color: cornflowerblue;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 12px;
+    margin-top: 30px;
+}
+    /* Change btn color when hovered over with mouse */
+#btn1:hover {
+    background-color: mediumseagreen;
+}
+/* Standard styling to keep format */
+#nav{
+    text-align:center;
+}
+/* Standard styling to keep format */
+#header {
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Alata', sans-serif;
+}
+/* Used margin to shorten the width of the table */
+
+#lineup {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+/* Standard styling to keep format */
+
+#lineuphead {
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Alata', sans-serif;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+/* Standard styling for carousel to center images */
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Center button */
+#gamediv{
+    text-align: center;
+}
+/* Same rounded off button styling as previous button */
+
+#start-button {
+    background-color: cornflowerblue;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 16px; 
+    border-radius: 12px;
+    margin-top: 30px;
+}
+ /* Change text on hover to keep format as previous button */
+#start-button:hover {
+    background-color: mediumseagreen;
+}
+/* End of Noah Sinkevicius CSS */
+
+/* Beginning of Domantas Knyzelis CSS */
+
+/* Standard styling to keep format */
+
+.para {
+    text-align: center;
+}
+/* Standard styling to keep format */
+
+#h1 {
+    color: black;
+    text-shadow: 2px 2px white;
+    border-style: solid;
+    background-color: yellow;
+}
+/* Keep images on left and fix width */
+
+#pic1 {
+    width: 900px;
+    float: left;
+}
+/* Text styling to keep the same theme */
+#sh2 {
+    color: white;
+    text-shadow: 2px 2px black;
+    text-decoration: underline;
+    float: left;
+}
+/* Text styling to keep the same theme */
+#imageText {
+    display: none;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+/* Text styling to keep the same theme */
+#vh2 {
+    float: left;
+    color: white;
+    text-shadow: 2px 2px black;
+    text-decoration: underline;
+}
+/* Text styling to keep the same theme */
+#imageText2 {
+    display: none;
+    float: left;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+/* Keep images on left and fix width */
+#pic2 {
+    width: 900px;
+    float: left;
+}
+/* Text styling to keep the same theme */
+#bh2 {
+    color: white;
+    text-shadow: 2px 2px black;
+    text-decoration: underline;
+    float: left;
+}
+/* Text styling to keep the same theme */
+#imageText3 {
+    display: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px black;
+    float:left;
+}
+/* Keep images on left and fix width */
+#pic3 {
+    width: 900px;
+    float: left;
+ 
+}
+/* Styling to create the checkout box */
+.checkout {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px black;
+    border-style: solid;
+    margin-left: 400px;
+    margin-right: 400px;
+    background-color: lightgrey;
+    padding-top: 15px;
+}
+/* Text styling to keep the same theme */
+.standard {
+    display: inline-block;
+}
+/* Standard styling to keep format */
+.vip {
+    display: inline-block;
+}
+/* Standard styling to keep format */
+.bckstage {
+    display: inline-block;
+}
+/* Standard styling to keep format */
+#h4 {
+    border-style: solid;
+    background-color: yellow;
+    color: black;
+}
+/* Standard styling to keep format */
+.heading {
+    text-align: center;
+}
+
+/* End of Domantas Knyzelis CSS */
+
