@@ -213,4 +213,45 @@ img {
 }
 
 /* End of Domantas Knyzelis CSS */
+/* Start of Beni Nkula CSS */
 
+
+#contactheader {
+    color: white;
+    text-align: center;
+}
+
+
+.form {
+    color: white;
+    font-style: italic;
+}
+
+.livechat {
+    font-style: italic;
+    color: white;
+    width: 500px
+}
+
+.image {
+    float: left;
+    width: 75px;
+}
+
+.text {
+    margin-left: 80px;
+    font-size: 23px;
+}
+
+.table-white {
+    color: white;
+    font-style: italic;
+    text-align: left;
+}
+
+p {
+    color: white;
+    font-style: italic;
+    font-size: 15px;
+}
+/* End of Beni Nkula CSS */
